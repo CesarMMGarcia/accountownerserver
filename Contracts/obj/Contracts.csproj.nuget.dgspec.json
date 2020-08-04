@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Contracts/Contracts.csproj": {}
+  },
+  "projects": {
+    "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Contracts/Contracts.csproj",
+        "packagesPath": "/Users/cesar/.nuget/packages/",
+        "outputPath": "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cesar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Entities/Entities.csproj": {
+                "projectPath": "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Entities/Entities.csproj",
+        "packagesPath": "/Users/cesar/.nuget/packages/",
+        "outputPath": "/Users/cesar/Desktop/redwood/AccountOwner/AccountOwnerServer 4/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cesar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{52CEADE6-C93F-4298-BA78-6C9424B86D80}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AccountOwnerServer" expanded="True">
+            <Node name="AccountOwnerServer" expanded="True">
+              <Node name="app" expanded="True">
+                <Node name="appsettings.json" expanded="True">
+                  <Node name="appsettings.Development.json" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Entities" expanded="True" />
+            <Node name="LoggerService" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AccountOwnerServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
